@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "author": "otoyalee",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.3.1"
+  }
+}
