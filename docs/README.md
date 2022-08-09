@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.png
+heroImage: /assets/img/logo.png
 heroText: 音也时馆
 actionText: 愿者上钩
 actionLink: https://www.bilibili.com/video/BV1GJ411x7h7?from=search&seid=8228769531010449733&spm_id_from=333.337.0.0
