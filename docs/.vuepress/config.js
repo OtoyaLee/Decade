@@ -1,6 +1,7 @@
 module.exports = {
 	title: '音也时馆1号分馆',
 	description: '不在沉默中爆发，就在沉默中灭亡',
+	base: '/',
 	dest: '/dist',
 	head:[
 		['link',{rel: 'icon',href:'/assets/img/logo.png'}]
