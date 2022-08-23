@@ -40,7 +40,8 @@ module.exports = {
 				'',
 				'C',
 				'Java',
-				'Python'
+				'Python',
+				'PHP'
 			],
 			'/Exp/':[
 				'',
