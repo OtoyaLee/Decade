@@ -10,7 +10,7 @@
 
 ## 环境搭建
 
->## Apache和PHP软件的安装
+>### Apache和PHP软件的安装
 
 ::: tip 版本
 
@@ -19,7 +19,7 @@ apache V2.4 , php V7.4.30
 
 :::
 
-## Apache部分
+### Apache部分
 >### 1.进入 /conf/httpd.conf,在配置文件中修改apache根目录（自行），配置域名
     Define SRVROOT "D:/Otimeum_Project/web/Apache24"
 
@@ -33,13 +33,13 @@ apache V2.4 , php V7.4.30
 >### 3.运行apache
 #### 运行 ApacheMonitor.exe ，在任务栏左击选择刚才安装并命名为 Apache2.4 的apache服务, "start" 开始运行
 
-## PHP部分
+### PHP部分
 >### 1.在php根目录找到 "php.ini-development",改为 "php.ini" ，修在配置文件中修改php根目录（自行）
     extension_dir = "D:/Otimeum_Project/web/php7.4.30/ext"
 
 >### 2.在apache中加载php配置项
 #### php在apache中是以模块的形式加载的。因而,在 /conf/httpd.conf 中引入php里的 apache2.4 的模块。在
- ## #LoadModule foo_module modules/mod_foo.so  
+ ### #LoadModule foo_module modules/mod_foo.so  
 #### 之后写入
 
     LoadModule php7_module "D:/Otimeum_Project/web/php7.4.30/php7apache2_4.dll"
