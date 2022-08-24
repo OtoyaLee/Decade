@@ -15,6 +15,7 @@
 ::: tip 版本
 
 apache V2.4 , php V7.4.30
+[点击此处获取](http://pan.otoya4869.top/Pastime/PHP/package/)
 
 :::
 
